@@ -1,0 +1,114 @@
+object FOpcion: TFOpcion
+  Left = 313
+  Top = 226
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 152
+  ClientWidth = 137
+  Color = 5131930
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object fcShapeBtn1: TfcShapeBtn
+    Left = 21
+    Top = 17
+    Width = 98
+    Height = 26
+    Caption = 'Consulta'
+    Color = clGray
+    DitherColor = 10207162
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentClipping = True
+    ParentFont = False
+    RoundRectBias = 25
+    ShadeStyle = fbsHighlight
+    Shape = bsRoundRect
+    TabOrder = 0
+    TextOptions.Alignment = taCenter
+    TextOptions.VAlignment = vaVCenter
+    OnClick = fcShapeBtn1Click
+  end
+  object fcShapeBtn2: TfcShapeBtn
+    Left = 21
+    Top = 49
+    Width = 98
+    Height = 25
+    Caption = 'Adici'#243'n'
+    Color = clGray
+    DitherColor = clMaroon
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    ParentClipping = True
+    ParentFont = False
+    RoundRectBias = 25
+    ShadeStyle = fbsHighlight
+    Shape = bsRoundRect
+    TabOrder = 1
+    TextOptions.Alignment = taCenter
+    TextOptions.VAlignment = vaVCenter
+    OnClick = fcShapeBtn2Click
+  end
+  object fcShapeBtn3: TfcShapeBtn
+    Left = 21
+    Top = 81
+    Width = 98
+    Height = 25
+    Caption = 'Ayuda'
+    Color = clGray
+    DitherColor = clMaroon
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    ParentClipping = True
+    ParentFont = False
+    RoundRectBias = 25
+    ShadeStyle = fbsHighlight
+    Shape = bsRoundRect
+    TabOrder = 2
+    TextOptions.Alignment = taCenter
+    TextOptions.VAlignment = vaVCenter
+    OnClick = fcShapeBtn3Click
+  end
+  object fcShapeBtn4: TfcShapeBtn
+    Left = 21
+    Top = 113
+    Width = 98
+    Height = 25
+    Caption = 'Salir'
+    Color = clGray
+    DitherColor = clMaroon
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    ParentClipping = True
+    ParentFont = False
+    RoundRectBias = 25
+    ShadeStyle = fbsHighlight
+    Shape = bsRoundRect
+    TabOrder = 3
+    TextOptions.Alignment = taCenter
+    TextOptions.VAlignment = vaVCenter
+    OnClick = fcShapeBtn4Click
+  end
+end
